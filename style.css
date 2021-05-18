@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Mali&family=Roboto+Condensed&display=swap');
+form{
+  box-align: right;
+  float : right;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 100px;
+  word-break: break-all;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-family: 'Dancing Script', cursive;
+  background-color: #e6f2ff; 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+  font-family: 'Mali', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+/*nav*/
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar li {
+  float: left;
+  font-family: 'Mali', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navbar li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+/*content*/
+
+#templatemo_content {
+	clear: both;
+	padding : 0 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#templatemo_content #templatemo_content_left {
+	float: left;
+	width: 188px;
+	padding: 10px;
+	background-color: #ffffe6;
+	border: 1px solid #ffff80;
+  font-family: 'Mali', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#templatemo_content_left .templatemo_content_left_section{
+	clear: both;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #2b2b2a;
+	margin-bottom: 20px;
+}
+
+/* content ฝั่งขวามือ */
+
+#templatemo_content_right .templatemo_product_box {
+	float: left;
+	width: 303px;
+	height: 250px;
+	padding: 20px;
+  margin-left: 20px;
+  font-family: 'Mali', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#templatemo_content_right h1 {
+	padding: 10px;
+	margin: 0 0 20px 0;
+	font-size: 15px;
+	color: #cbc750;
+  font-family: 'Mali', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#templatemo_content_right h2 {
+	padding: 0 0 0 0;
+	margin: 0 0 20px 0;
+	font-size: 50px;
+	color: #e6e154;
+  font-family: 'Mali', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#templatemo_content_right h3 {
+	padding: 0;
+	margin: 0 0 20px 0;
+	font-size: 18px;
+	color: #85391f;
+  font-family: 'Mali', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#templatemo_content_right ul {
+	margin: 0 0 20px 0;
+	padding: 0 0 0 20px;
+	list-style: none;
+  font-family: 'Mali', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#templatemo_content_right li {
+	padding: 0 0 3px 0;
+  font-family: 'Mali', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#templatemo_content_right .image_panel {
+	float: left;
+	width: 100px;
+	margin-right: 20px;
+}
+
+#templatemo_content_right p {
+	text-align: justify;
+	padding: 0 0 8px 0;
+  font-family: 'Mali', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.templatemo_product_box h1 span {
+	font-weight: normal;
+  font-family: 'Mali', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.templatemo_product_box img {
+	float: left;
+	margin-right: 20px;
+}
+
+.templatemo_product_box .product_info {
+	float: left;
+	width: 180px;
+}
+
+.product_info p {
+	margin-bottom: 15px;
+}
+
+/* end of content */
+
+#templatemo_footer {
+	clear: both;
+	padding: 20px 0px 0px 0;
+	text-align: center;
+	color: #999;
+	background-color: white;
+  font-family: 'Mali', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#templatemo_footer a{
+	color: #fff;
+	font-weight: normal;
+  font-family: 'Mali', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+/* end of footer */
+
+
+.cleaner {
+	clear: both;
+	width: 100%;
+	height: 1px;
+	font-size: 1px;	
+}
+
+.cleaner_with_height {
+	clear: both;
+	width: 100%;
+	height: 30px;
+	font-size: 1px;	
+}
+
+.cleaner_with_width {
+	float: left;
+	width: 20px;
+	height: 30px;
+	font-size: 1px;	
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.column2 {
+  float: left;
+  width: 60%;
+}
+
+/*add to cart*/
+input{
+	-webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+	border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+input[type="submit" i] {
+    appearance: auto;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: -internal-light-dark(black, white);
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    box-sizing: border-box;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.product-quantity {
+	pading: 5px 10px;
+	border-radius: 3px;
+	border: #e0e0e0 1px solid;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.homebook {
+  font-family: 'Mali', cursive;
+  font-weight: bold;
+}
